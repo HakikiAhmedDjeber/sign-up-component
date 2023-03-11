@@ -1,0 +1,73 @@
+/* import font family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/* start variables */
+:root {
+  --main-red: hsl(0, 100%, 74%);
+  --main-green: hsl(154, 59%, 51%);
+  --blue: hsl(248, 32%, 49%);
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+}
+/* end varibales */
+/* start global rules */
+* {
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* small*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* medium*/
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/*large*/
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* end global rules */
+.main {
+}
+.main .text {
+}
+.main .text h1 {
+}
+.main .text p {
+}
+.main .form {
+}
+.main .form > p {
+}
+.main .form form {
+}
+.main .form form input {
+}
+.main .form form input[type="submit"] {
+}
