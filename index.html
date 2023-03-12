@@ -31,30 +31,42 @@
       <div class="form">
         <p><b>Try it free 7 days</b> then $20/mo. thereafter</p>
         <form action="">
-          <input
-            type="text"
-            name="firstName"
-            id="firstName"
-            placeholder="First Name"
-          />
-          <input
-            type="text"
-            name="lastName"
-            id="lastName"
-            placeholder="Last Name"
-          />
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email Address"
-          />
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Password"
-          />
+          <div class="firstName">
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name"
+            />
+            <span>First name cannot be empty</span>
+          </div>
+          <div class="lastName">
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name"
+            />
+            <span>Last name cannot be empty</span>
+          </div>
+          <div class="email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <span>Email is incorrect or empty</span>
+          </div>
+          <div class="password">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <span>Password cannot be empty</span>
+          </div>
           <input type="submit" value="Claim your free trial" />
           <p>
             Byclicking the button, you are agreeing to our

@@ -92,12 +92,26 @@ input:focus {
 .main .form form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
   margin: 20px 0;
   background: white;
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0px 5px 0px 0px #00000059;
+}
+.main .form form div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.main .form form div span {
+  display: none;
+  position: absolute;
+  color: var(--main-red);
+  font-size: 0.8em;
+  right: 0;
+  font-weight: bold;
+  bottom: -18px;
 }
 .main .form form input {
   padding: 15px 20px;
@@ -140,6 +154,17 @@ footer a {
     text-align: center;
   }
   .main .form {
-  width: 100%;
+    width: 100%;
   }
+}
+/*invalid mode*/
+.invalid-mode {
+  background-image: url(../images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: center;
+  border: 2px solid var(--main-red) !important;
+}
+.active {
+  display: block !important;
 }
