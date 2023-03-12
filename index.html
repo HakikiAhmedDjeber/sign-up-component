@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,8 +19,8 @@
     <title>Frontend Mentor | Intro component with sign up form</title>
   </head>
   <body>
-    <div class="main container">
-      <div class="text">
+    <main class="main container">
+      <div role="text Section" class="text">
         <h1>Learn to code by watching others</h1>
         <p>
           See how experienced developers solve problems in real-time. Watching
@@ -28,11 +28,12 @@
           invaluable.
         </p>
       </div>
-      <div class="form">
-        <p><b>Try it free 7 days</b> then $20/mo. thereafter</p>
-        <form action="">
-          <div class="firstName">
+      <div role="form" class="form">
+        <p role="note"><b>Try it free 7 days</b> then $20/mo. thereafter</p>
+        <form>
+          <div role="textbox" class="firstName">
             <input
+              role="textbox"
               type="text"
               name="firstName"
               id="firstName"
@@ -42,6 +43,7 @@
           </div>
           <div class="lastName">
             <input
+              role="textbox"
               type="text"
               name="lastName"
               id="lastName"
@@ -51,6 +53,7 @@
           </div>
           <div class="email">
             <input
+              role="textbox"
               type="email"
               name="email"
               id="email"
@@ -60,6 +63,7 @@
           </div>
           <div class="password">
             <input
+              role="textbox"
               type="password"
               name="password"
               id="password"
@@ -68,13 +72,13 @@
             <span>Password cannot be empty</span>
           </div>
           <input type="submit" value="Claim your free trial" />
-          <p>
+          <p role="note">
             Byclicking the button, you are agreeing to our
             <a href="#">Terms and Services</a>
           </p>
         </form>
       </div>
-    </div>
+    </main>
     <footer>
       <div class="container">
         <p class="attribution">
