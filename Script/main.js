@@ -4,8 +4,10 @@ const lastName = document.getElementById("lastName");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
 const submit = document.querySelector("input[type='submit']");
+// the list of input fileds
 const fileds = document.querySelectorAll("input:not([type='submit'])");
 let check = 0;
+
 // decalre the regEx pattrens
 const namesEx = /[a-z]{1,}/i;
 const emailEx = /\w@\w.\w/i;
